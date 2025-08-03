@@ -34,8 +34,6 @@ The dataset contains hourly weather data for Toronto, Canada (latitude: 43.7001,
 - `direct_radiation`: Direct solar radiation (W/m²)
 - `wind_gusts_10m`: Wind gusts at 10 meters (km/h)
 
-The dataset is available as a CSV file hosted at:
-`https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cgBu1y94dmPAnw4HfZPeOg/hourly-weather-data.csv`
 
 ## Objectives
 
@@ -116,4 +114,3 @@ Key outputs from the notebook include:
 - **Hourly Trends**: The warmest hour on average is around 20:00 (11.31°C), and the coldest is around 04:00 (7.41°C).
 - **Lazy Evaluation**: Filtering for temperatures above 25°C efficiently returns 8,043 records.
 
-For detailed results, refer to the output cells in `Polars-101.ipynb`.
